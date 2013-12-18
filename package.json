@@ -1,0 +1,29 @@
+{
+  "name": "mean-app",
+  "version": "0.0.1",
+  "private": true,
+  "scripts": {
+      "start": "node node_modules/grunt-cli/bin/grunt",
+      "postinstall": "bower install"
+  },
+  "engines": {
+    "node": "0.10.x",
+    "npm": "1.2.x"
+  },
+  "dependencies": {
+      "express": "3.4.4",
+      "jade": "*",
+      "stylus": "*",
+      "mongoose": "*",
+      "bower": "*",
+      "forever": "latest",
+      "grunt": "latest",
+      "grunt-cli": "latest",
+      "grunt-contrib-watch": "latest",
+      "grunt-contrib-jshint": "latest",
+      "grunt-nodemon": "latest",
+      "underscore": "latest",
+      "connect-mongo": "latest",
+      "async": "latest"
+  }
+}
